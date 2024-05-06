@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VampireVault.Client", "src\VampireVault.Client\VampireVault.Client.csproj", "{0B550940-0796-4E7F-99A0-2379C38B71F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VampireVault", "src\VampireVault\VampireVault.csproj", "{B07A39A3-D378-4C29-887C-52ADDBB1ED3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B550940-0796-4E7F-99A0-2379C38B71F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B550940-0796-4E7F-99A0-2379C38B71F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B550940-0796-4E7F-99A0-2379C38B71F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B550940-0796-4E7F-99A0-2379C38B71F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B07A39A3-D378-4C29-887C-52ADDBB1ED3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B07A39A3-D378-4C29-887C-52ADDBB1ED3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B07A39A3-D378-4C29-887C-52ADDBB1ED3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B07A39A3-D378-4C29-887C-52ADDBB1ED3D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
