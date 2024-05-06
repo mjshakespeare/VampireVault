@@ -1,7 +1,70 @@
 ﻿@page "/"
+@using VampireVault.Client.Components
 
 <PageTitle>Home</PageTitle>
 
-<h1>Hello, world!</h1>
+<div class="sheet">
+    <h1>V20 Character Sheet</h1>
+    <div class="section">
+        <div class="column">
+            <h2>Physical</h2>
+            <Characteristic Name="Dexterity" Value="1" MaxValue="5"/>
+            <Characteristic Name="Strength" Value="1" MaxValue="5"/>
+            <Characteristic Name="Stamina" Value="1" MaxValue="5"/>
+        </div>
+        <div class="column">
+            <h2>Social</h2>
+            <Characteristic Name="Charisma" Value="1" MaxValue="5"/>
+            <Characteristic Name="Manipulation" Value="1" MaxValue="5"/>
+            <Characteristic Name="Appearance" Value="1" MaxValue="5"/>
+        </div>
+        <div class="column">
+            <h2>Mental</h2>
+            <Characteristic Name="Perception" Value="1" MaxValue="5"/>
+            <Characteristic Name="Intelligence" Value="1" MaxValue="5"/>
+            <Characteristic Name="Wits" Value="1" MaxValue="5"/>
+        </div>
+    </div>
 
-Welcome to your new app.
+    <div class="section">
+        <div class="column">
+            <h2>Talents</h2>
+            <Characteristic Name="Alertness" Value="1" MaxValue="5"/>
+            <Characteristic Name="Athletics" Value="1" MaxValue="5"/>
+            <Characteristic Name="Awareness" Value="1" MaxValue="5"/>
+            <Characteristic Name="Brawl" Value="1" MaxValue="5"/>
+            <Characteristic Name="Empathy" Value="1" MaxValue="5"/>
+            <Characteristic Name="Expression" Value="1" MaxValue="5"/>
+            <Characteristic Name="Intimidation" Value="1" MaxValue="5"/>
+            <Characteristic Name="Leadership" Value="1" MaxValue="5"/>
+            <Characteristic Name="Legerdemain" Value="1" MaxValue="5"/>
+            <Characteristic Name="Subterfuge" Value="1" MaxValue="5"/>
+        </div>
+        <div class="column">
+            <h2>Skills</h2>
+            <Characteristic Name="Animal Ken" Value="1" MaxValue="5"/>
+            <Characteristic Name="Archery" Value="1" MaxValue="5"/>
+            <Characteristic Name="Commerce" Value="1" MaxValue="5"/>
+            <Characteristic Name="Crafts" Value="1" MaxValue="5"/>
+            <Characteristic Name="Etiquette" Value="1" MaxValue="5"/>
+            <Characteristic Name="Melee" Value="1" MaxValue="5"/>
+            <Characteristic Name="Performance" Value="1" MaxValue="5"/>
+            <Characteristic Name="Rider" Value="1" MaxValue="5"/>
+            <Characteristic Name="Stealth" Value="1" MaxValue="5"/>
+            <Characteristic Name="Survival" Value="1" MaxValue="5"/>
+        </div>
+        <div class="column">
+            <h2>Knowledges</h2>
+            <Characteristic Name="Academics" Value="1" MaxValue="5"/>
+            <Characteristic Name="Enigmas" Value="1" MaxValue="5"/>
+            <Characteristic Name="Heart Wisdom" Value="1" MaxValue="5"/>
+            <Characteristic Name="Investigation" Value="1" MaxValue="5"/>
+            <Characteristic Name="Law" Value="1" MaxValue="5"/>
+            <Characteristic Name="Medicine" Value="1" MaxValue="5"/>
+            <Characteristic Name="Occult" Value="1" MaxValue="5"/>
+            <Characteristic Name="Politics" Value="1" MaxValue="5"/>
+            <Characteristic Name="Seneschal" Value="1" MaxValue="5"/>
+            <Characteristic Name="Theology" Value="1" MaxValue="5"/>
+        </div>
+    </div>
+</div>

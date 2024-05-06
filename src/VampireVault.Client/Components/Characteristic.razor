@@ -1,0 +1,13 @@
+<div class="characteristic">
+    <span class="characteristic-name">@Name</span>
+    <div class="characteristic-bar">
+        @for (var i = 0; i < MaxValue; i++)
+        {
+            <span class="circle @(i < Value ? "filled" : "")"></span>
+        }
+    </div>
+</div>
+
+@code {
+    
+}

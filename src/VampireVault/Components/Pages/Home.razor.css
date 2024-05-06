@@ -1,0 +1,41 @@
+.sheet {
+    background-color: #fff;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1, h2, h3 {
+    color: #333;
+}
+.section {
+    margin-bottom: 20px;
+}
+.attribute {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.attribute label {
+    flex: 1;
+}
+.attribute input {
+    flex: 1;
+    padding: 5px;
+}
+.attribute input[type="number"] {
+    width: 60px;
+}
+
+.column {
+    display: inline-block;
+    width: 32%;
+    vertical-align: top;
+}
+
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}

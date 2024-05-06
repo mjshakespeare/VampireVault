@@ -1,4 +1,3 @@
-using VampireVault.Client.Pages;
 using VampireVault.Components;
 
 var builder = WebApplication.CreateBuilder(args);

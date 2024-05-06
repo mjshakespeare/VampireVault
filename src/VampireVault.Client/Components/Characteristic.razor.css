@@ -1,0 +1,25 @@
+.characteristic {
+    margin-bottom: 10px;
+}
+
+.characteristic-name {
+    font-weight: bold;
+}
+
+.characteristic-bar {
+    display: flex;
+    align-items: center;
+    margin-right: 0;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    margin-right: 5px;
+}
+
+.circle.filled {
+    background-color: #000;
+}
