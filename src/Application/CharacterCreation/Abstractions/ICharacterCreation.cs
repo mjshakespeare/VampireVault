@@ -141,9 +141,9 @@ public enum Clan
 }
 
 public record struct ChooseAttributeSetRequest(
-    AttributeSet primary,
-    AttributeSet secondary,
-    AttributeSet tertiary);
+    AttributeSet Primary,
+    AttributeSet Secondary,
+    AttributeSet Tertiary);
 
 public enum AttributeSet
     : byte
@@ -161,9 +161,9 @@ public record struct ChooseAttributeSetResponse(
 }
 
 public record struct ChooseAbilitySetRequest(
-    AbilitySet primary,
-    AbilitySet secondary,
-    AbilitySet tertiary);
+    AbilitySet Primary,
+    AbilitySet Secondary,
+    AbilitySet Tertiary);
 
 public enum AbilitySet
     : byte

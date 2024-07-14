@@ -6,4 +6,19 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+        <ProjectReference Include="..\Domain\Domain.csproj"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="CharacterCreation\Abstractions\Models\ChooseClanResponse.cs" />
+      <Compile Remove="CharacterCreation\Abstractions\Models\ChooseClanRequest.cs" />
+      <Compile Remove="CharacterCreation\Abstractions\Models\ChooseAttributeSetResponse.cs" />
+      <Compile Remove="CharacterCreation\Abstractions\Models\ChooseAttributeSetRequest.cs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="CharacterCreation\Abstractions\Models\" />
+    </ItemGroup>
+
 </Project>

@@ -1,4 +1,4 @@
-namespace Application.CharacterCreation.Abstractions.Models;
+namespace Application.CharacterCreation.Abstractions.Models.Requests;
 
 public enum Category
 {

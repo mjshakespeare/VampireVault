@@ -1,0 +1,35 @@
+namespace Application.CharacterCreation.Abstractions.Models;
+
+public enum Clan
+{
+    // TODO Character creation quick ref pg 156
+    Ahrimanes = 0,
+    Assamites = 1,
+    Baali = 2,
+    Bonsam = 3,
+    Brujah = 4,
+    Cappadocian = 5,
+    ChildrenOfOsiris = 6,
+    Danava = 7,
+    FollowersOfSet = 8,
+    Gangrel = 9,
+    Giovani = 10,
+    Impundulu = 11,
+    Kiasyd = 12,
+    Lamiae = 13,
+    Lasombra = 14,
+    Lhiannan = 15,
+    Malkavians = 16,
+    Nagarajah = 17,
+    Niktuku = 18,
+    Nosferatu = 19,
+    Ramanga = 20,
+    Ravnos = 21,
+    Salubri = 22,
+    Setites = 23,
+    Toreador = 24,
+    Tremere = 25,
+    TrueBrujah = 26,
+    Tzimisce = 27,
+    Ventrue = 28,
+}

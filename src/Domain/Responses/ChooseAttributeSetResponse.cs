@@ -1,4 +1,4 @@
-namespace Application.CharacterCreation.Abstractions.Models;
+namespace Application.CharacterCreation.Abstractions.Models.Responses;
 
 public record struct ChooseAttributeSetResponse(
     string? Message)
