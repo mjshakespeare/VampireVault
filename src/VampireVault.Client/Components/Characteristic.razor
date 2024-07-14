@@ -1,13 +1,24 @@
 <div class="characteristic">
     <span class="characteristic-name">@Name</span>
     <div class="characteristic-bar">
-        @for (var i = 0; i < MaxValue; i++)
+        @for (var i = -1; i < MaxValue; i++)
         {
-            <span class="circle @(i < Value ? "filled" : "")"></span>
+            <span class="circle @(i < Value ? "filled" : "")">
+                @if (i < Value - 0)
+                {
+                    // Decrease (refund points)
+                    <button @onclick=RefundPoint style="color:white">
+                        -
+                    </button>
+                }
+                else if (i > Value - 0)
+                {
+                    // Increase (spend points)
+                    <button @onclick=BuyPoint>
+                        +
+                    </button>
+                }
+            </span>;
         }
     </div>
 </div>
-
-@code {
-    
-}
